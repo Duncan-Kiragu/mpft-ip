@@ -1,0 +1,221 @@
+body{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+	
+}
+.head{
+	background: url(../img/backgrounds/landing.jpg) no-repeat center center;
+	font-family: Raleway;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #c8cace;
+	padding-bottom:40px;
+
+
+
+}
+
+
+.head p strong{
+	color: #fff;
+	font-weight: bolder;
+}
+img{
+	margin-top: 140px;
+	margin-bottom:10px;
+	
+}
+
+.col1 h3{
+	font-family: Roboto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+
+}
+.col1 .row2 h3{
+	background-color: #F15A29;
+	color: #fff;
+}
+.br {
+	background: url(../img/foodtop/breakfast.jpg) no-repeat;
+	padding-bottom: 41px;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-style: italic;
+}
+.br h4{
+	padding-top: 78px;
+	font-size: 30px;
+}
+.br:hover{
+	opacity: 0.7;
+	color: #000;
+}
+.lu {
+	background: url(../img/foodtop/lunch.jpg) no-repeat;
+	padding-bottom: 41px;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-style: italic;
+}
+.lu h4{
+	padding-top: 78px;
+	font-size: 30px;
+}
+
+.lu:hover{
+	opacity: 0.7;
+	color: #000;
+}
+.dn {
+	background: url(../img/foodtop/dinner.jpg) no-repeat;
+	padding-bottom: 41px;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-style: italic;
+}
+.dn h4{
+	padding-top: 78px;
+	font-size: 30px;
+}
+.dn:hover{
+	opacity: 0.7;
+	color: #000;
+}
+
+
+.imggroup .img1{
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+.imggroup .img2{
+	margin-top: 0;
+}
+.colpar3{
+	margin-top: 100px;
+
+}
+.colpar3 h1{
+	text-align: left;
+	font-family: Raleway;
+	font-weight: bolder;
+}
+.colpar3 h3{
+	text-align: left;
+	font-weight: bold;
+	text-transform: capitalize;
+
+
+}
+.colpar3 h6{
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+}
+.colpar3 button{
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+	border-color:  #F15A29;
+	color: #F15A29;
+	width: 250px;
+	font-size: 29px;
+}
+.colpar3 button:hover{
+	background-color: #fff;
+	color: #F15A29;
+	border-color: #F15A29;
+}
+
+.imggroup1 .img11{
+	margin-top: 100px;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+.imggroup1 .img12{
+	margin-top: 110px;
+	margin-right: 0;
+}
+.col1par3{
+	margin-top: 100px;
+	margin-bottom: 30px;
+
+}
+.col1par3 h1{
+	text-align: right;
+	font-family: Raleway;
+	font-weight: bolder;
+}
+.col1par3 h3{
+	text-align: right;
+	font-weight: bold;
+	text-transform: capitalize;
+
+
+}
+.col1par3 h6{
+	font-size: 20px;
+	text-align: right;
+	line-height: 20px;
+}
+.col1par3 button{
+	background-color: #fff;
+	float: right;
+	margin-top: 10px;
+	border-color:  #F15A29;
+	color: #F15A29;
+	width: 250px;
+	font-size: 29px;
+}
+.col1par3 button:hover{
+	background-color: #fff;
+	color: #F15A29;
+	border-color: #F15A29;
+}
+.par4{
+	background: url(../img/backgrounds/foodsBg.jpg) no-repeat center center;
+	padding-bottom: 100px;
+
+}
+.par5{
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.par6{
+	background: url(../img/backgrounds/subscribe.jpg) no-repeat center center;
+	padding-bottom: 100px;
+}
+.par7{
+	background-color: #F15A29;
+
+}
+.par6 h1{
+	font-family: Roboto;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.par6 form button{
+	background-color: #F15A29;
+	border: none;
+	color: #fff;
+	width: 200px;
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.par7 h3{
+	font-family: Roboto;
+	color: white;
+	text-transform: capitalize;
+}
+.par7 .fb{
+	margin-top: 4px;
+}
