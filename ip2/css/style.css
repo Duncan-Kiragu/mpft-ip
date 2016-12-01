@@ -211,3 +211,7 @@ form{
 	color: white;
 
 }
+.subscribed{
+	display: none;
+	padding-bottom: 10%;
+}
