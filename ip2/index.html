@@ -10,27 +10,27 @@
 	</head>
 	<body>
 		<!-- header content -->
-		<div class="container-fluid">
+		<div class="container-fluid headerBg">
 			<!-- hamberger menu divs -->
 			<div class="hambMenu"></div>
 			<div class="hambMenu"></div>
 			<div class="hambMenu"></div>
 			<!-- hamberger menu divs end -->
 			<img src="img/logoBig.png" alt="Image ofthe logo">
-			<p class="headerText"> We provide the best food at the <strong>Right Price</strong></p>
+			<p class="headerText"> We provide the best food <br>at the <strong>Right Price</strong></p>
 
 		</div>
 		<!-- header content end -->
 		<!-- Breakfast lunch dinner section -->
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row bldSect">
 				<!-- paryTime and Happy Hour -->
 				<div class="col-md-3">
 				<div class="row happyHour">
-					
+					<h2>Happy Hour</h2>
 				</div>
 				<div class="row partyTime">
-					
+					<h2>Party Time</h2>
 				</div>
 					
 				</div>
@@ -50,9 +50,9 @@
 		</div>
 		<!-- Breakfast lunch dinner section end -->
 		<!-- drinks and fastfood section -->
-		<div class="container">
+		<div class="container fastSect">
 			<!-- fast food row -->
-			<div class="row">
+			<div class="row fastSect">
 				<div class="col-md-6 fastFoodImg">
 					<img src="img/fastFood1.jpg" alt="fast food image">
 					<img src="img/fastFood2.jpg" alt="fast food image">
@@ -62,7 +62,7 @@
 					<h1>Fast Food</h1>
 					<h3>You will love our delicious Fast food</h3>
 					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo <br> augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. <br>Suspendisse sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis. 
 					</p>
 					<button class="btn btn-lg btn-default">View Gallery
 						<span class="glyphicon glyphicon-arrow-right"></span>
@@ -88,24 +88,45 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		<!-- drinks and fastfood section end -->
 		<!-- tab section -->
 		<div class="container-fluid tabSection">
 			<div class="container">
-				<div class="row">
+				<div class="row tabBg ">
 					<!-- tab navigation -->
-					<ul class="nav nav-tabs">
-						<li class="active"><a href="#fast" data-toggle="tab">Fast Food</a></li>
+					<ul class="nav nav-tabs nav-justified">
+						<li class="active " ><a href="#fast" data-toggle="tab">Fast Food</a></li>
 						<li class="disabled"><a href="#" data-toggle="tab">Drinks</a></li>
 						<li class="disabled"><a href="#" data-toggle="tab">Chicken</a></li>
 						<li class="disabled"><a href="#" data-toggle="tab">Rice</a></li>
 					</ul>
 					<!-- tab content -->
 					<div class="tab-content">
-						<div class="tab-pane" id="fast">
-							<span class="glyphicon glyphicon-arrow-left"></span>
+						<div class="tab-pane fade in active" id="fast">
+
 							
-							<span class="glyphicon glyphicon-arrow-right"></span>
+							<div class="row">
+							
+							
+							<div class="col-md-4">
+								<img src="img/fastfood/chickenBurger.jpg" alt="chicken Burger">
+								<h2>Chicken Burger</h2>
+							</div>
+							<div class="col-md-4">
+								
+								<img src="img/fastfood/beefBurger.jpg" alt="beef Burger">
+								<h2>Beef Burger</h2>
+							</div>
+							<div class="col-md-4">
+								<img src="img/fastfood/chickenPizza.jpg" alt="chicken pizza">
+								<h2>Chicken Pizza</h2>
+								
+							</div>
+							
+							
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -115,27 +136,37 @@
 		<!-- tab section end -->
 		<!-- customer &about section -->
 		<div class="container">
-			<div class="row">
-			<div class="col-md-6">
-			<!-- 	carosel -->
-			</div>
-			<div class="col-md-6 aboutMenu">
-				<h1>About Menu</h1>
-				<p>
-				  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse sit amet 
-				
+			<div class="row aboutSect">
+				<div class="col-md-6 customers">
+				<h1>Our Happy Customers</h1>
+				<h3>George Richard</h3>
+				<p> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus,
 				</p>
-				
-			</div>
+				<span class="glyphicon glyphicon-chevron-left indicators"></span>
+				<img src="img/customers/p1.png" alt="">
+				<img src="img/customers/p2.png" alt="">
+				<img src="img/customers/p3.png" alt="">
+				<span class="glyphicon glyphicon-chevron-right indicators"></span>
+				</div>
+				<div class="col-md-6 aboutMenu">
+					<h1>About Menu</h1>
+					<p>
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse sit amet 
+					
+					</p>
+					
+				</div>
 			</div>
 		</div>
 		<!-- customer &about section end -->
 		<!-- subscribe section -->
-		<div class="container-fluid">
+		<div class="container-fluid subscribe">
 			<h1 class="subscribeHead">Get our daily food items deliverd to your email</h1>
-			<div class="col-md-2"></div>
+			<div class="col-md-1"></div>
 			<!-- input field -->
-			<div class="col-md-9">
+			
+			<div class="col-md-10">
 				<form id="subscribe" class="form-inline">
 					<input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
 					<button class="btn btn-lg btn-default">Subscribe</button>

@@ -1,0 +1,213 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-align: center;
+	background: #f2f2f2;
+
+}
+/*header section*/
+.headerBg{
+	background: url(../img/backgrounds/landing.jpg) no-repeat center center;
+	
+}
+
+.headerBg img{
+	padding-top: 2%;
+	padding-bottom: 5%;
+
+}
+.headerBg .headerText{
+	font-size: 40px;
+	font-family: Roboto;
+	text-transform: capitalize;
+	color: #fff;
+
+}
+
+/*breakfast lunch ad dinner section*/
+.bldSect{
+	margin-bottom: 8%;
+}
+.happyHour,.partyTime{
+	
+	padding: 4%;
+	font-size: 40px;
+}
+.partyTime{
+	background-color: #F15A29;
+	color: white;
+	
+}
+.breakfast{
+	background: url(../img/foodtop/breakfast.jpg) no-repeat center center;
+}
+.breakfast:hover,.lunch:hover,.dinner:hover{
+	opacity: 0.7;
+	
+}
+
+.breakfast p{
+	padding: 20%;
+	padding-top: 22%;
+	color: white;
+	font-size: 25px;
+}
+.lunch{
+	background: url(../img/foodtop/lunch.jpg) no-repeat center center;
+}
+.lunch p{
+	padding: 20%;
+	padding-top: 22%;
+	color: white;
+	font-size: 25px;
+}
+.dinner{
+	background: url(../img/foodtop/dinner.jpg) no-repeat center center;
+}
+.dinner p{
+	padding: 20%;
+	padding-top: 22%;
+	color: white;
+	font-size: 25px;
+}
+/*fastfood and drinks section*/
+.fastFoodImg{
+	border: 2px solid #f3f3f3;
+	background: white;
+	padding: 4%;
+}
+.fastFoodText{
+	text-align: left;
+	margin-top: 2%;
+	
+
+}
+.fastFoodText p{
+	font-size: 20px;
+}
+.btn-default {
+
+background: #fff;
+border-color:  #F15A29;
+color:  #F15A29;
+}
+.btn-default:hover {
+
+background: #fff;
+border-color:  #F15A29;
+color:  #F15A29;
+}
+.drinksImg{
+	border: 2px solid #f3f3f3;
+	box-shadow: 2px;
+	background: white;
+	padding: 4%;
+	margin: 0;
+}
+.drinksText{
+	text-align: right;
+	margin-top: 2%;
+
+}
+.drinksText p{
+	font-size: 20px;
+}
+.fastSect{
+	padding-bottom: 2%;
+
+}
+.fastSect h1{
+ font-size: 40px;
+ font-weight: bolder;
+ font-family: Roboto;
+
+}
+.fastSect h3{
+ font-size: 30px;
+ font-weight: bolder;
+ font-family: Roboto;
+
+}
+/*tabsSection*/
+.tabSection{
+	background: url(../img/backgrounds/foodsBg.jpg) no-repeat center center;
+	padding-bottom: 20%;
+}
+.tabBg{
+	background: #fff;
+	margin-top: 20%;
+}
+#fast img{
+	padding-top: 6%;
+}
+.nav a{
+	font-size: 25px;
+	background: #dee0e2;
+	font-weight: bold;
+	font-family: Roboto;
+}
+#fast h2{
+	color: #F15A29;
+}
+/*about section*/
+.aboutSect{
+	border: solid 1px  #dee0e2 ;
+}
+.aboutMenu{
+	margin-top:2%; 
+	border-left: 1px solid  #dee0e2;
+}
+.aboutMenu p{
+	text-align: justify;
+}
+.aboutSect h1,span{
+	color: #F15A29;
+}
+
+.customers{
+	margin-top: 2%;
+}
+.subscribe{
+	background: url(../img/backgrounds/subscribe.jpg) no-repeat center center;
+	margin-top: 3%;
+	
+
+
+}
+.subscribeHead{
+	margin-top: 5%;
+	color: white;
+	font-family: Roboto;
+
+}
+.subscribe input{
+	background: rgba(255,255,255,0.4);
+
+
+}
+.subscribe input:hover{
+	background: rgb(255,255,255);
+}
+.subscribe button{
+	background-color: #F15A29;
+	color: white;
+	margin-left:4%;
+}
+.subscribe button:hover{
+	background-color: #F15A29;
+	color: white;
+
+}
+form{
+	margin-bottom: 8%;
+}
+.footer{
+	background: #F15A29;
+	padding-top: 5%;
+}
+.footer h2,h5{
+	font-family: Roboto;
+	color: white;
+
+}
