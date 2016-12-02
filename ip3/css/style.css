@@ -28,24 +28,21 @@ body{
 	color: white;
 	font-weight: bolder;
 	font-family: monospace;
-
 	
 }
-
 .displayName{
 	display: none;
 }
 .btnName{
-background: #5CFF00;
-border-color: none;
+	background: #5CFF00;
+	border-color: none;
 }
 .btnName:hover{
-background: #5CFF00;
-border-color: none;
+	background: #5CFF00;
+	border-color: none;
 }
 .lists{
 	display: none;
-	
 }
 ul li{
 	list-style-type: none;
