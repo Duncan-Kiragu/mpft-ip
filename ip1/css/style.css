@@ -1,0 +1,85 @@
+        body {
+            text-align: center;
+        }
+        
+        .navbar {
+            background: rgba(39, 193, 255, 0.5);
+        }
+        
+        .navbar-nav a {
+            color: white;
+            font-size: 16px;
+        }
+        
+        .navbar-nav a:hover {
+            color: black;
+            border: none;
+        }
+        
+        .background {
+            background: url(../img/james.jpg);
+        }
+        
+        .header {
+            background: #27C1FF;
+        }
+        
+        .header img {
+            padding-top: 15%;
+            padding-bottom: 1%;
+        }
+        
+        .header h1 {
+            font-size: 70px;
+            color: white;
+            font-family: Roboto;
+        }
+        
+        .header h4 {
+            font-size: 40px;
+            color: white;
+            padding-bottom: 10%;
+            font-family: Roboto;
+        }
+        
+        .about h1 {
+            margin: 10% 0;
+            font-size: 50px;
+            border-bottom: 2px solid black;
+            font-family: Roboto;
+            color: #27C1FF;
+        }
+        
+        .about p {
+            font-family: Roboto;
+            font-size: 25px;
+            line-height: 42px;
+        }
+        
+        .contact {
+            padding: 10%;
+        }
+        
+        .contact h1 {
+            margin: 10% 0;
+            font-size: 50px;
+            border-bottom: 4px solid black;
+            font-family: Roboto;
+            color: #27C1FF;
+        }
+        
+        .contact input {
+            border: 2px solid black;
+            box-shadow: none;
+            padding: 5%;
+            width: 100%;
+        }
+        
+        .contact button {
+            background: #27C1FF;
+            float: left;
+            width: 40%;
+            padding: 2%;
+            color: white;
+            font-family: Roboto;
+        }
