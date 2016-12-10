@@ -4,55 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <title>James Muriuki|web designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet"> </head>
+    <link rel="stylesheet" href="assets/animate.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> </head>
 
 <body>
-    <!--    navbar section	-->
-    <nav class="nav navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <!--            navbar links-->
-            <div class="nav navbar-nav ">
-                <li><a href="#">The Guy</a></li>
-                <li><a href="#">His Work</a></li>
-                <li><a href="#">Get In Touch</a></li>
+    <!--   header area-->
+    <div class="container-fluid header">
+        <!--        navigation section-->
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#what-i-do">What I Do</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> <img src="img/logo.png" alt="Logo" class="logo">
+        <!--        jumbotron section-->
+        <h1>Hello! I'm James.</h1>
+        <h4>Web Designer / Adventure Enthusist / Food Fanatic</h4>
+        <!--    CTA buttons--><a href="#" class="aboutbtn">About Me</a> <a href="#" class="contactbtn">Get in Touch</a> </div>
+    <!--    end header area-->
+    <!--    about me section-->
+    <div class="container-fluid about" id="about">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h1>About Me</h1> </div>
+            <div class="col-sm-12 col-md-6">
+                <p> My Story is dull and enticing. I love Adventure and travel. I am a dreamer and a strong optimist. I want to travel the world and meet different kinds of people.I dont want to change the world. </p>
             </div>
         </div>
-    </nav>
-    <!--    header content section-->
-    <div class="container-fluid header"> <img src="img/logo.png" alt="logo image">
-        <h1>Hello</h1>
-        <h4>The Name's Bond James Bond</h4> </div>
-    <!--    about me section-->
-    <div class="container-fluid about">
+    </div>
+    <!--    about me section end-->
+    <!--    what i do section-->
+    <div class="container-fluid what-i-do" id="what-i-do">
         <div class="row">
             <div class="col-md-6">
-                <h1>The Guy</h1>
-                <p> Hello there my name is James Muriuki (not Bond but I could be), from Nairobi Kenya. Freelance web designer with the blood of Adventure. I love exploring new Things ,Meeting new people, and the most important of all... Food. I have a good grasp of HMTL,CSS and Javascript to create beautiful websites that make you and your brand a success. Look around and say hello,request for a free website review (on the house :-) </p>
+                <h1>Responsive One Page</h1>
+                <p>I create stunning one page websites that are mobile responsive. Dont write a Cv the same way again stand out and be unique</p>
             </div>
-            <div class="col-md-6 background"></div>
+            <div class="col-md-6 bg"> </div>
         </div>
     </div>
-    <!--    his work-->
-    <div class="container-fluid"> </div>
-    <!--    contact-->
-    <div class="container-fluid  contact">
-        <div class="col-md-6">
-            <form>
-                <input type="text" class="form-control" id="name" placeholder="Enter Your Name ie:James Bond">
-                <br>
-                <input type="email" class="form-control" id="email" placeholder="Enter Your email address ie: Jamesbond@awesome.com">
-                <br>
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Let me buy you some coffee."></textarea>
-                <br>
-                <button class="btn">Submit</button>
-            </form>
+    <!--    what i do section end-->
+    <!--   contact section-->
+    <div class="container-fluid contact" id="contact">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <h4>Name</h4>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your Name"> </div>
+                    <div class="form-group">
+                        <h4>Email</h4>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your Email Adress"> </div>
+                    <div class="form-group">
+                        <h4>Your Message</h4>
+                        <textarea id="message" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h1>Get in touch</h1> </div>
         </div>
-        <div class="col-md-6">
-            <h1> Get In Touch </h1> </div>
     </div>
+    <!--   contact end-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>

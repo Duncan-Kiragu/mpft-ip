@@ -1,85 +1,168 @@
-        body {
-            text-align: center;
-        }
-        
-        .navbar {
-            background: rgba(39, 193, 255, 0.5);
-        }
-        
-        .navbar-nav a {
-            color: white;
-            font-size: 16px;
-        }
-        
-        .navbar-nav a:hover {
-            color: black;
-            border: none;
-        }
-        
-        .background {
-            background: url(../img/james.jpg);
-        }
-        
-        .header {
-            background: #27C1FF;
-        }
-        
-        .header img {
-            padding-top: 15%;
-            padding-bottom: 1%;
-        }
-        
-        .header h1 {
-            font-size: 70px;
-            color: white;
-            font-family: Roboto;
-        }
-        
-        .header h4 {
-            font-size: 40px;
-            color: white;
-            padding-bottom: 10%;
-            font-family: Roboto;
-        }
-        
-        .about h1 {
-            margin: 10% 0;
-            font-size: 50px;
-            border-bottom: 2px solid black;
-            font-family: Roboto;
-            color: #27C1FF;
-        }
-        
-        .about p {
-            font-family: Roboto;
-            font-size: 25px;
-            line-height: 42px;
-        }
-        
-        .contact {
-            padding: 10%;
-        }
-        
-        .contact h1 {
-            margin: 10% 0;
-            font-size: 50px;
-            border-bottom: 4px solid black;
-            font-family: Roboto;
-            color: #27C1FF;
-        }
-        
-        .contact input {
-            border: 2px solid black;
-            box-shadow: none;
-            padding: 5%;
-            width: 100%;
-        }
-        
-        .contact button {
-            background: #27C1FF;
-            float: left;
-            width: 40%;
-            padding: 2%;
-            color: white;
-            font-family: Roboto;
-        }
+body {
+    background: #e6eaf2;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.header {
+    background: #000;
+    padding-bottom: 15%;
+}
+
+.header nav ul {
+    list-style-type: none;
+    float: right;
+    margin: 4%;
+}
+
+.header nav ul li {
+    display: inline;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.header nav ul li a {
+    color: #e6eaf2;
+    font-family: Oswald;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    text-decoration: overline;
+}
+
+.header img {
+    float: left;
+}
+
+.header h1 {
+    color: #e6eaf2;
+    font-family: Oswald;
+    font-size: 50px;
+    margin-bottom: 2%;
+    padding-top: 25%;
+}
+
+.header h4 {
+    color: #e6eaf2;
+    font-family: Oswald;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.aboutbtn {
+    color: #e6eaf2;
+    font-family: Oswald;
+    font-size: 18px;
+    border: 3px solid #ff0000;
+    padding: 0.5% 5%;
+    border-radius: 2%;
+    margin-right: 2%;
+}
+
+.aboutbtn:hover {
+    color: #e6eaf2;
+    font-family: Oswald;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contactbtn {
+    color: #e6eaf2;
+    background: #ff0000;
+    font-family: Oswald;
+    font-size: 18px;
+    border: 3px solid #000000;
+    padding: 0.5% 5%;
+    border-radius: 2%;
+    margin-right: 2%;
+}
+
+.contactbtn:hover {
+    color: #e6eaf2;
+    font-family: Oswald;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.about h1 {
+    padding-top: 25%;
+    font-family: Oswald;
+    color: #ff0000;
+    border-bottom: 2px solid black;
+    margin-bottom: 50%;
+}
+
+.about p {
+    display: block;
+    padding-top: 50%;
+    text-align: left;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.what-i-do h1 {
+    font-family: Oswald;
+    color: #ff0000;
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+}
+
+.what-i-do p {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.bg {
+    background-image: url("../img/responsive.png");
+}
+
+.contact {
+    background: black;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contact h4 {
+    font-family: Oswald;
+    color: #e6eaf2;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 2%;
+}
+
+.contact button {
+    float: left;
+    width: 30%;
+    background: #ff0000;
+    color: #e6eaf2;
+    font-family: Oswald;
+}
+
+.contact button:hover {
+    float: left;
+    width: 30%;
+    background: #ff0000;
+    color: #e6eaf2;
+    font-family: Oswald;
+}
+
+.contact h1 {
+    color: #e6eaf2;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 25%;
+    border-bottom: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+
+form {
+    padding: 10%;
+}
