@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: #000;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-family: monospace;
+}
+
+.container {
+    margin-top: 2%;
+    border: 1px solid white;
+    padding: 5%;
+}
+
+.player {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    border-bottom: 1px solid white;
+}
+
+.score {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-submit {
+    color: black;
+    font-family: monospace;
+    margin-top: 1%;
+}
+
+.turn-score {
+    text-align: center;
+    border: 1px solid black;
+    padding: 35%;
+    background: red;
+    border-radius: 100%;
+}
+
+.roll-hold {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.roll-hold .btn {
+    margin: 2% 4%;
+    color: black;
+    width: 120px;
+    font-family: monospace;
+}

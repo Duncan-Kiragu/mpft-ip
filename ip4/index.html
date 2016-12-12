@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pig Dice ||The most useless game on the planet</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> </head>
+
+<body>
+    <h1 class="title">Pig Dice</h1>
+    <div class="container">
+        <!--       player info row-->
+        <div class="row">
+            <div class="col-sm-4">
+                <form id="player1">
+                    <input type="text" class="form-control player1" placeholder="Player 1 name">
+                    <button class="btn btn-submit">Submit</button>
+                </form>
+                <h1 class="player player1name"></h1>
+                <p class="score player1score"></p>
+            </div>
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4">
+                <form id="player2">
+                    <input type="text" class="form-control player2" placeholder="Player 2 name">
+                    <button class="btn btn-submit">Submit</button>
+                </form>
+                <h1 class="player player2name"></h1>
+                <p class="score player2score"></p>
+            </div>
+        </div>
+        <!--        player info row end-->
+        <!--        score row-->
+        <div class="row">
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4">
+                <h2 class="turn-score"></h2> </div>
+            <div class="col-sm-4"> </div>
+        </div>
+        <!--   score row end-->
+        <!--        roll and hold row-->
+        <div class="row roll-hold ">
+            <div class="col-sm-4">
+                <button class="btn btn-roll " id="roll1">Roll</button>
+                <button class="btn btn-hold" id="hold1">Hold</button>
+            </div>
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4">
+                <button class="btn btn-roll" id="roll2">Roll</button>
+                <button class="btn btn-hold" id="hold2">Hold</button>
+            </div>
+        </div>
+        <!--        roll and hold row end -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
